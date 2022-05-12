@@ -1,0 +1,70 @@
+.row-accessories {
+    background-color: rgba(52, 163, 215, 0.1) !important;
+}
+
+.table-menu-header {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.blur-text {
+    color: transparent;
+    text-shadow: 0 0 6px #000;
+    word-break: break-word;
+}
+
+.form-demo {
+    min-width: 300px;
+}
+
+.form-demo form {
+    margin-top: 2rem;
+}
+
+.form-demo .p-field {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .form-demo {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .form-demo {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+.p-datatable-resizable .p-datatable-thead > tr > th, .p-datatable-resizable .p-datatable-tfoot > tr > td, .p-datatable-resizable .p-datatable-tbody > tr > td {
+    white-space: normal !important;
+}
+
+@media screen and (max-width: 960px) {
+    .p-datatable[pr_id_1] .p-datatable-tbody > tr > td {
+        display: flex;
+        width: 100% !important;
+        align-items: flex-start !important;
+        justify-content: space-between !important;
+        align-content: stretch !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .p-datatable[pr_id_1] .p-datatable-tbody > tr > td > .p-column-title {
+        padding-bottom: 10px;
+    }
+
+}
+
+/*.p-datatable-resizable>.p-datatable-wrapper{*/
+/*    overflow: paged-x-controls;*/
+/*}*/
+
+.p-menubar .p-submenu-list{
+    z-index:7777;
+}
